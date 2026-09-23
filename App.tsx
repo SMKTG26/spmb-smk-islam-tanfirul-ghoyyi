@@ -1,21 +1,18 @@
-import React, { useState } from 'react';
-import { MajorCode, StudentRegistration } from './types/spmb';
-import { OfficialHeaderBanner } from './components/OfficialHeaderBanner';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { PrincipalWelcomeSection } from './components/PrincipalWelcomeSection';
-import { MuassisSection } from './components/MuassisSection';
-import { MajorsSection } from './components/MajorsSection';
-import { StudentAchievementsSection } from './components/StudentAchievementsSection';
-import { SchoolActivities } from './components/SchoolActivities';
-import { ActivityVideosSection } from './components/ActivityVideosSection';
-import { RegistrationFlowAndFees } from './components/RegistrationFlowAndFees';
-import { RegistrationWizard } from './components/RegistrationWizard';
-import { StatusCheckAndCard } from './components/StatusCheckAndCard';
-import { AdminPanel } from './components/AdminPanel';
-import { FaqAndContact } from './components/FaqAndContact';
-import { Footer } from './components/Footer';
-
+import { OfficialHeaderBanner } from './OfficialHeaderBanner';
+import { Navbar } from './Navbar';
+import { Hero } from './Hero';
+import { PrincipalWelcomeSection } from './PrincipalWelcomeSection';
+import { MuassisSection } from './MuassisSection';
+import { MajorsSection } from './MajorsSection';
+import { StudentAchievementsSection } from './StudentAchievementsSection';
+import { SchoolActivities } from './SchoolActivities';
+import { ActivityVideosSection } from './ActivityVideosSection';
+import { RegistrationFlowAndFees } from './RegistrationFlowAndFees';
+import { RegistrationWizard } from './RegistrationWizard';
+import { StatusCheckAndCard } from './StatusCheckAndCard';
+import { AdminPanel } from './AdminPanel';
+import { FaqAndContact } from './FaqAndContact';
+import { Footer } from './Footer';
 export default function App() {
   const [activeTab, setActiveTab] = useState<'beranda' | 'muassis' | 'kepala-sekolah' | 'jurusan' | 'prestasi' | 'kegiatan' | 'video' | 'alur' | 'daftar' | 'status' | 'admin'>('beranda');
   const [selectedMajorForRegister, setSelectedMajorForRegister] = useState<MajorCode>('DKV');
