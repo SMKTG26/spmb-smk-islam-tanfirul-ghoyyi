@@ -1,0 +1,6 @@
+{
+  "name": "SPMB SMK Islam Tanfirul Ghoyyi",
+  "description": "SPMB Tahun Pelajaran 2027-2028 SMK Islam Tanfirul Ghoyyi - Sekolah Berbasis Al-Qur'an & Bahasa. Jurusan Desain Komunikasi Visual (DKV).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
